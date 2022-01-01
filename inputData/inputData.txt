@@ -1,0 +1,31 @@
+
+solverType :    (SteepestDescentMethod_constantStepSize, SteepestDescentMethod_variableStepSize, SteepestDescentMethod_quadraticFi, NewtonRaphsonMethod)
+SteepestDescentMethod_constantStepSize		
+.................................................................
+
+coefficient_a : 
+1
+..................................................................
+
+coefficient_b :  
+100
+.................................................................
+
+initialGuess_x1 :  
+1
+..................................................................
+
+initialGuess_x2 : 
+-1.2
+.................................................................
+
+maximumErrorForSolving :
+1.0e-6
+.................................................................
+
+constant_stepSize :   (note: if you are using only SteepestDescentMethod_constantStepSize solver, you should value this.) 
+1.0e-4
+.................................................................
+
+numberOfVariable_stepSize : (note: if you are using only SteepestDescentMethod_variableStepSize solver, you should value this.)
+6
